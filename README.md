@@ -1,68 +1,59 @@
 # Banking Application (C++)
 
 ## Overview
-This project is a console-based banking simulation that models investment growth over time. Users can input an initial investment amount, monthly deposits, interest rate, and time period to visualize how their balance evolves.
+This application simulates investment growth over time based on user-defined inputs, including initial investment, monthly deposits, interest rate, and duration.
 
-The application focuses on financial calculation logic, structured program design, and clear output formatting.
+The program provides a structured way to visualize how investments evolve, reinforcing financial computation logic and modular program design.
 
 ---
 
 ## Features
-- Calculates investment growth over time
-- Supports optional monthly deposits
-- Displays year-by-year balance and interest earned
-- Provides formatted output for readability
-- Handles user input for customizable scenarios
+
+- Calculates investment growth over time  
+- Supports optional monthly deposits  
+- Displays yearly balances and interest earned  
+- Provides formatted output for readability  
+- Accepts user-defined input parameters  
 
 ---
 
 ## Technologies and Concepts
-- C++
-- Object-oriented programming (classes and methods)
-- Functions and modular design
-- Input handling and validation
-- Mathematical computation (interest calculations)
-- Console-based user interaction
+
+- C++  
+- Object-oriented programming  
+- Functions and modular design  
+- Input handling and validation  
+- Mathematical computation (compound interest)  
+- Console-based user interaction  
 
 ---
 
-## Development Approach
-This project was developed using a structured workflow that began with pseudocode planning and progressed into modular implementation. Functionality was broken into smaller components to improve readability and maintainability.
+## Design Approach
 
-The program emphasizes separation of concerns, with logic organized into reusable methods and classes.
+The application was developed using a modular design approach, separating user input, calculation logic, and output formatting into distinct components.
 
----
-
-## Challenges and Problem Solving
-One of the primary challenges in this project was adapting existing programming experience (primarily in Java and Python) to C++ syntax and structure. While the underlying logic remained consistent, differences in implementation required careful debugging and attention to detail.
-
-Problem-solving strategies included:
-- Breaking complex calculations into smaller steps
-- Revisiting problems with a fresh perspective after stepping away
-- Discussing logic with peers to validate approach
-
-These strategies reinforced the importance of persistence and structured thinking in software development.
+This structure improves readability, maintainability, and potential for future extension.
 
 ---
 
-## What I Learned
-- How to design a multi-step calculation program using modular components
-- The importance of planning with pseudocode before implementation
-- How to structure programs for readability and future maintenance
-- Differences in syntax and implementation between programming languages
+## Key Challenges
+
+- Translating financial formulas into stepwise computational logic  
+- Ensuring accurate accumulation of interest over time  
+- Designing clear and readable output for user interpretation  
 
 ---
 
-## Future Improvements
-- Add account management features (user login and authentication)
-- Integrate persistent data storage using a database
-- Enhance input validation and error handling
-- Expand the application beyond console-based interaction (GUI)
+## Future Enhancements
+
+- Add account management and user profiles  
+- Integrate persistent data storage (e.g., database or file system)  
+- Expand financial modeling capabilities  
+- Develop a graphical user interface  
 
 ---
 
 ## How to Run
-Compile and run using a C++ compiler:
 
 ```bash
 g++ main.cpp -o banking_app
